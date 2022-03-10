@@ -1,3 +1,6 @@
+{% include navigation.html %}
+
+
 ## 5.2 - Digital Empowerment
 <table>
    <tr>
