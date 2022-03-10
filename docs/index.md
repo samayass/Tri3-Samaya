@@ -33,3 +33,37 @@
     <td>Dopamine is a hormone which is released when someone does an activity that they feel pleasure from. Even though dopamine is good for us as humans, some people become addicted to the feeling and begin to only do the activities which they get dopamine from. As said in the notes some people begin to forget about their responsibilities outside of the activity that makes them happy which leads them to fall behind in certain aspects of life. Nothing is impacting my success right now, as I feel that I am preforming to my full extent in all my classes so far.</td>
   </tr>
   </table>
+
+
+## TT0 - Data Structures project (Menu)
+<a href="https://github.com/samayass/Tri3-Samaya">Github</a>
+```
+menu = [
+    ["swap", "swap.py"],
+    ["keyboard", "matrix.py"],
+    ["exit", "c"],
+]
+
+if __name__ == "__main__":
+    while True:
+        for i in range(len(menu)):
+            print(menu[i][0])
+        print("Choose one")
+        userInput = input("")
+
+        if userInput == "swap" or userInput == "1":
+            a = input("Enter a number")
+            b = input("Enter another number")
+            print(" ")
+            swap.swap1_helper(a, b)
+        elif userInput == "keyboard" or userInput == "2":
+            print(" ")
+            matrix.test_matrices()
+        elif userInput == "exit" or userInput == "3":
+            exit()
+        else:
+            print("Enter a valid input")
+        print("   ")
+
+```
+       
