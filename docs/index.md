@@ -18,7 +18,7 @@
   </tr>
   </table>
   
- ## 5.1 - Effects of Computing
+## 5.1 - Effects of Computing
 <table>
    <tr>
     <th>Questions</th>
