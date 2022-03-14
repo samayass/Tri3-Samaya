@@ -35,10 +35,10 @@ if __name__ == "__main__":
         print("   ")
 
 ```
+
 ## TT0 - Data Structures project (Animation)
-
-```
-
+ 
+``` 
 from time import sleep
 
 def Rocket():
@@ -71,5 +71,4 @@ for i in range(10):
 
 if __name__ == "__main__":
     Rocket()
-    
-    ```
+```
