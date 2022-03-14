@@ -1,5 +1,8 @@
-{% include navigation.html %}
+{% include navigation.html %} <br>
 
+<a href="http://studyowl.tk:8080/test/">Runtime</a>
+
+<a href="https://github.com/samayass/flask_portfolio/blob/main/templates/test.html">Code</a>
 
 ## PBL Plan
 Goal was to implement these different types of code into our technicals to ensure they blend into our website, but are still able to be shown for the Create Task. There are 4 different written types of code: Data Abstraction, Managing Complexity, Procedural Abstraction, and Algorithm Implementation.  
