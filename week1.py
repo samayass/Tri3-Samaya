@@ -11,7 +11,7 @@ if __name__ == "__main__":
     while True:
         for i in range(len(menu)):
             print(menu[i][0])
-        print("What would you like")
+        print("Choose one")
         userInput = input("")
 
         if userInput == "swap" or userInput == "1":
