@@ -4,6 +4,8 @@
 
 ## TT0 - Data Structures project (Menu)
 <a href="https://github.com/samayass/Tri3-Samaya">Github</a>
+<a href="https://replit.com/@Samayas/Tri3-Samaya-3#animation.py">Replit</a>
+
 ```
 menu = [
     ["swap", "swap.py"],
@@ -33,3 +35,39 @@ if __name__ == "__main__":
         print("   ")
 
 ```
+## TT0 - Data Structures project (Animation)
+
+```
+from time import sleep
+
+def Rocket():
+    print(
+        """
+                   ^
+                  / \\
+                  |-|
+                  | |
+                  | |
+                  | |
+                  | |
+                  | |
+                 /| |\\
+                / | | \\
+               |  | |  |
+                / | | \\
+                /     \\
+                -------
+        """)
+
+Rocket()
+
+delay = 350
+for i in range(10):
+    print()
+    sleep(delay/1000)
+    delay = delay * 1
+
+
+if __name__ == "__main__":
+    Rocket()
+    ```
