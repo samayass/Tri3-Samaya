@@ -1,3 +1,6 @@
+{% include navigation.html %}
+
+
 ## PBL Plan
 Goal was to implement these different types of code into our technicals to ensure they blend into our website, but are still able to be shown for the Create Task. There are 4 different written types of code: Data Abstraction, Managing Complexity, Procedural Abstraction, and Algorithm Implementation.  
 
