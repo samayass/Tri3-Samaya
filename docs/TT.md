@@ -1,3 +1,7 @@
+{% include navigation.html %}
+
+
+
 ## TT0 - Data Structures project (Menu)
 <a href="https://github.com/samayass/Tri3-Samaya">Github</a>
 ```
