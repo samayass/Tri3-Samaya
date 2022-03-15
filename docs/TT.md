@@ -4,7 +4,6 @@
 
 ## TT0 - Data Structures project (Menu)
 <a href="https://github.com/samayass/Tri3-Samaya">Github</a> <br>
-<a href="https://replit.com/@Samayas/Tri3-Samaya-3#animation.py">Replit</a>
 
 ```
 menu = [
