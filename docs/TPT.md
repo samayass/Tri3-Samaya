@@ -49,7 +49,7 @@
   </tr>
    <tr>
     <td>Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?</td>
-    <td></td>
+    <td>Financialbarriers and home life can also stop someone from becoming digitally empowered as it can be difficult for some people to have access to technology.</td>
   </tr>
   </table>
   
