@@ -1,32 +1,47 @@
+# save this as rocket.py
 from time import sleep
 
-def Rocket():
+def printRocket():
     print(
         """
-                   ^
-                  / \\
+                   _
+                  /^\\
                   |-|
                   | |
-                  | |
-                  | |
-                  | |
-                  | |
+                  |N|
+                  |A|
+                  |S|
+                  |A|
                  /| |\\
                 / | | \\
                |  | |  |
-                / | | \\
-                /     \\
-                -------
+               `-\\"\\"\\"-`
         """)
-
-Rocket()
-
-delay = 350
-for i in range(10):
+    print(
+        """
+                   _
+                  /^\\
+                  |-|
+                  | |
+                  |N|
+                  |A|
+                  |S|
+                  |A|
+                 /| |\\
+                / | | \\
+               |  | |  |
+               `-\\"\\"\\"-`
+        """)
+printRocket()
+delay = 300
+for i in range(60):
     print()
     sleep(delay/1000)
-    delay = delay * 1
+    delay = delay * 0.9
 
 
-if __name__ == "__main__":
-    Rocket()
+
+
+
+    
+    
