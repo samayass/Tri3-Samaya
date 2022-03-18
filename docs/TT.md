@@ -8,32 +8,47 @@
 <a href="https://github.com/samayass/Tri3-Samaya">Github</a> <br>
 
 ```
-menu = [
-    ["swap", "swap.py"],
-    ["keyboard", "matrix.py"],
-    ["exit", "c"],
-]
+from swap import swap1_helper
+from matrix import test_matrices
 
-if __name__ == "__main__":
+
+menulist = {
+    1: 'Swap',
+    2: 'Tree',
+    3: 'Matrix',
+    4: 'Exit'
+}
+
+def printMenu():
+    for key in menulist.keys():
+        print(key, '--', menulist[key] )
+    menu()
+
+def menu():
     while True:
-        for i in range(len(menu)):
-            print(menu[i][0])
-        print("Choose one")
-        userInput = input("")
+        try:
+            option = int(input('Choose one:  '))
+            if option == 1:
+                a = input("Enter a number")
+                b = input("Enter another number")
+                print(" ")
+                swap1_helper(a, b)
+            if option == 2:
+                height = int(input('Enter a height:  '))
+                for i in range(height):
+                    print((' ' * (height - i)) + ('*' * ((2 * i) + 1)))
+                print((' ' * height) + '**')
+                print((' ' * height) + '**')
+            elif option == 3:
+                test_matrices()
+            elif option == 4:
+                print('Exiting')
+                exit()
+            else:
+                print('Invalid input. Enter a number between 1 and 3.')
+        except ValueError:
+            print('Invalid input. Please enter an integer input.')
 
-        if userInput == "swap" or userInput == "1":
-            a = input("Enter a number")
-            b = input("Enter another number")
-            print(" ")
-            swap.swap1_helper(a, b)
-        elif userInput == "keyboard" or userInput == "2":
-            print(" ")
-            matrix.test_matrices()
-        elif userInput == "exit" or userInput == "3":
-            exit()
-        else:
-            print("Enter a valid input")
-        print("   ")
 
 ```
 
