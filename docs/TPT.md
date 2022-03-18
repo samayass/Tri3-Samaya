@@ -1,6 +1,38 @@
 {% include navigation.html %}
 
+## 5.4 - Crowdsourcing
+<table>
+   <tr>
+    <th>Questions</th>
+    <th>Answers</th>
+   </tr>
+    <tr>
+    <td>CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?</td>
+    <td></td>
+  </tr>
+   </tr>
+    <tr>
+    <td>What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?</td>
+    <td></td>
+  </tr>
+</table>
 
+## 5.3 - Computing Bias
+<table>
+   <tr>
+    <th>Questions</th>
+    <th>Answers</th>
+   </tr>
+    <tr>
+    <td>Come up with some thoughts on the video and be ready to discuss them as I call on you.</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Does the owner of the computer think this was intentional? If yes or no, justify you conclusion. How do you think this happened? Is this harmful? Was it intended to be           harmful or exclude? Should it be corrected? What would you or should you do to produce a better outcome?</td>
+    <td></td>
+  </tr>
+ </table>
+   
 ## 5.2 - Digital Empowerment
 <table>
    <tr>
@@ -17,7 +49,7 @@
   </tr>
    <tr>
     <td>Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?</td>
-    <td></td>
+    <td>Financialbarriers and home life can also stop someone from becoming digitally empowered as it can be difficult for some people to have access to technology.</td>
   </tr>
   </table>
   
