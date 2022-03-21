@@ -9,11 +9,11 @@ InfoDb.append({
 })
 
 InfoDb.append({
-        "FirstName": "Bob",
-        "LastName": "Brush",
-        "FavoriteColor": "Green",
-        "FavoriteSeason": "Summer",
-        "Favorite_Foods":["Pasta","Strawberries","Chocolate","Cheese", "Yogurt"]
+    "FirstName": "Bob",
+    "LastName": "Brush",
+    "FavoriteColor": "Green",
+    "FavoriteSeason": "Summer",
+    "Favorite_Foods":["Pasta","Strawberries","Chocolate","Cheese", "Yogurt"]
 })
 
 InfoDb.append({
