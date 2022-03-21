@@ -4,6 +4,7 @@ InfoDb.append({
     "FirstName": "Samaya",
     "LastName": "Sankuratri",
     "FavoriteColor": "Purple",
+    "FavoriteSeason": "Winter",
     "Favorite_Foods":["Pizza","Tacos","Seaweed","Grapes", "Chips"]
 })
 
@@ -11,11 +12,22 @@ InfoDb.append({
         "FirstName": "Bob",
         "LastName": "Brush",
         "FavoriteColor": "Green",
+        "FavoriteSeason": "Summer",
         "Favorite_Foods":["Pasta","Strawberries","Chocolate","Cheese", "Yogurt"]
+})
+
+InfoDb.append({
+    "FirstName": "Aliya",
+    "LastName": "Tang",
+    "FavoriteColor": "Blue",
+    "FavoriteSeason": "Fall",
+    "Favorite_Foods":["Egg","Watermelon","Mac and Cheese","Jello", "Pomegranate"]
 })
 
 def print_data(n):
     print(InfoDb[n]["FirstName"], InfoDb[n]["LastName"])  # using comma puts space between values
+    print("\t","Favorite Color: ", InfoDb[n]["FavoriteColor"])
+    print("\t","Favorite Season: ", InfoDb[n]["FavoriteSeason"])
     print("\t", "Favorite Foods: ", end="")  # \t is a tab indent, end="" make sure no return occurs
     print(", ".join(InfoDb[n]["Favorite_Foods"]))  # join allows printing a string list with separator
     print()
