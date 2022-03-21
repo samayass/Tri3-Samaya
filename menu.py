@@ -1,12 +1,19 @@
 from swap import swap1_helper
 from matrix import test_matrices
+from infoDb import tester
+from factorial import factorialTester
+from fibonacci import fibonacci_tester
+
 
 
 menulist = {
     1: 'Swap',
     2: 'Tree',
     3: 'Matrix',
-    4: 'Exit'
+    4: 'InfoDb',
+    5: 'Factorial',
+    6: 'Fibonacci',
+    7: 'Exit'
 }
 
 def printMenu():
@@ -32,6 +39,12 @@ def menu():
             elif option == 3:
                 test_matrices()
             elif option == 4:
+                tester()
+            elif option == 5:
+                factorialTester()
+            elif option == 6:
+                fibonacci_tester()
+            elif option == 7:
                 print('Exiting')
                 exit()
             else:
