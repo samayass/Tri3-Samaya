@@ -8,12 +8,12 @@
    </tr>
     <tr>
     <td>CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?</td>
-    <td></td>
+    <td>A crowdsource idea to initiate into the enviornment would be to have a survey taken by all the CompSciP students and see who has prior coding experience to ensure that they are distributed evenly throughout the classes, so that the groups that are going to be formed are fair.</td>
   </tr>
    </tr>
     <tr>
     <td>What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?</td>
-    <td></td>
+    <td>Yes our final project can be better with crowdsourcing as it can give us different users' input about our website, and it can show us how to implement differnet ideas to ensure that we can gauge to various people. </td>
   </tr>
 </table>
 
@@ -23,13 +23,9 @@
     <th>Questions</th>
     <th>Answers</th>
    </tr>
-    <tr>
-    <td>Come up with some thoughts on the video and be ready to discuss them as I call on you.</td>
-    <td></td>
-  </tr>
    <tr>
-    <td>Does the owner of the computer think this was intentional? If yes or no, justify you conclusion. How do you think this happened? Is this harmful? Was it intended to be           harmful or exclude? Should it be corrected? What would you or should you do to produce a better outcome?</td>
-    <td></td>
+    <td>Does the owner of the computer think this was intentional? If yes or no, justify you conclusion. How do you think this happened? Is this harmful? Was it intended to be harmful or exclude? Should it be corrected? What would you or should you do to produce a better outcome?</td>
+    <td>The owner of the computer does not think this was intentional since he was cleary joking around showing the difference the computer had with him and his coworker standing before the camera. I think this happened because the people who were coding this program were first just trying to get it to work on anyone, and they did not really think that they would have to change anything in the code for it to work on all different types of people. This was not harmful as it was not intentional and the people programming this code could not forsee that something like this could have happened. Yes it should be corrected as this was 10 years ago and now we have better technology and being able to crrect it will allow a more diverse group of people to purchase this product. I would do user testing on a more diverse group of people to ensure that there is little to no problems with the program.</td>
   </tr>
  </table>
    
