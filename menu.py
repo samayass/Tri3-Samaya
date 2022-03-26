@@ -1,8 +1,8 @@
-from swap import swap1_helper
-from matrix import test_matrices
-from infoDb import tester
+from week0.swap import swap1_helper
+from week0.matrix import test_matrices
+from week1.infoDb import tester
 from factorial import factorialTester
-from fibonacci import fibonacci_tester
+from week1.fibonacci import fibonacci_tester
 
 
 

@@ -5,6 +5,8 @@ def swap1(a, b):
 
 
 def swap1_helper(a, b):
+    a = input("Enter a number")
+    b = input("Enter another number")
     print("python swap")
     print("original: ", a, b)
     a, b = swap1(a, b)
