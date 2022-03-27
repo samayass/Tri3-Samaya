@@ -1,5 +1,53 @@
 {% include navigation.html %}
 
+## 5.6 - Safe Computing
+<table>
+   <tr>
+    <th>Questions</th>
+    <th>Answers</th>
+   </tr>
+    <tr>
+    <td>Describe PII you have seen on project in CompSci Principles.</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>What are your feelings about PII and your exposure?</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Describe good and bad passwords? What is another step that is used to assist in authentication.</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Try to describe Symmetric and Asymmetric encryption.</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Provide and example of encryption we used in deployment.</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.</td>
+    <td></td>
+  </tr>
+</table>
+
+## 5.5 - Legal and Ethical Concerns
+<table>
+   <tr>
+    <th>Questions</th>
+    <th>Answers</th>
+   </tr>
+    <tr>
+    <td>When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages </td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Make a license for your personal and Team project. Document license you picked and why.</td>
+    <td></td>
+  </tr>
+</table>
+
 ## 5.4 - Crowdsourcing
 <table>
    <tr>
