@@ -2,7 +2,8 @@
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
 from week0 import animation, matrix, swap
-from week1 import fibonacci, infoDb, factorial
+from week1 import fibonacci, infoDb
+from week2 import factorial
 
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -20,7 +21,7 @@ sub_menu_data = [
 sub_menu_math = [
     ["swap", swap.swap1_helper],
     ["fibonacci", fibonacci.fibonacci_tester],
-    ["factorial", factorial.factorialTester],
+    ["factorial", factorial.factorial_tester],
 
 ]
 
