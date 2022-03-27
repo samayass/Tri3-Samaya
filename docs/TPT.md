@@ -41,9 +41,9 @@
     <tr>
     <td>When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages </td>
     <td>We are using <a href='https://github.com/Archkitten/n22p4-quarter-finals/blob/main/LICENSE'>GNU General Public License v3.0<a>. <br>
-       - This license allows us to have freedom with our coding and others are allowed to also have access to our free software. <br>
-       - The conditions of this license are that contributors provide an express grant of patent. <br>
-       - You are allowed to sell your software but there is no protection as it is open software.</td>
+       * This license allows us to have freedom with our coding and others are allowed to also have access to our free software. <br>
+       * The conditions of this license are that contributors provide an express grant of patent. <br>
+       * You are allowed to sell your software but there is no protection as it is open software.</td>
   </tr>
     <tr>
     <td>Make a license for your personal and Team project. Document license you picked and why.</td>
