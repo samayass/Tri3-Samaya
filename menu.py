@@ -3,7 +3,7 @@
 # each import enables us to use logic that has been abstracted to other files and folders
 from week0 import animation, matrix, swap
 from week1 import fibonacci, infoDb
-from week2 import factorial
+from week2 import factorial, GCD
 
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -14,20 +14,21 @@ main_menu = [
 # Works similarly to main_menu
 
 sub_menu_data = [
-    ["keypad", matrix.test_matrices],
-    ["infodb", infoDb.tester]
+    ["Keypad", matrix.test_matrices],
+    ["Infodb", infoDb.tester]
 ]
 
 sub_menu_math = [
-    ["swap", swap.swap1_helper],
-    ["fibonacci", fibonacci.fibonacci_tester],
-    ["factorial", factorial.factorial_tester],
+    ["Swap", swap.swap1_helper],
+    ["Fibonacci", fibonacci.fibonacci_tester],
+    ["Factorial", factorial.factorial_tester],
+    ["GCD", GCD.GCD_OOP_tester],
 
 ]
 
 sub_menu_adventure = [
-    ["tree",],
-    ["pattern", animation.ship]
+    ["Tree",],
+    ["Pattern", animation.ship]
 ]
 
 # Menu banner is typically defined by menu owner
@@ -42,9 +43,9 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["data", submenu_data])
-    menu_list.append(["math", submenu_math])
-    menu_list.append(["adventure", submenu_adventure])
+    menu_list.append(["Data", submenu_data])
+    menu_list.append(["Math", submenu_math])
+    menu_list.append(["Adventure", submenu_adventure])
     buildMenu(title, menu_list)
 
 def submenu_data():
