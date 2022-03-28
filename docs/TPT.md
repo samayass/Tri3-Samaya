@@ -1,5 +1,56 @@
 {% include navigation.html %}
 
+## 5.6 - Safe Computing
+<table>
+   <tr>
+    <th>Questions</th>
+    <th>Answers</th>
+   </tr>
+    <tr>
+    <td>Describe PII you have seen on project in CompSci Principles.</td>
+    <td>PII I have seen in projects in CSP are full names, date of births, email addresses, place of birth, religion and identification numbers of vehicals and homes. </td>
+  </tr>
+    <tr>
+    <td>What are your feelings about PII and your exposure?</td>
+    <td>PII can be dangerous especially when it is easily accessible to anyone with internet. Most of my PII is not on the internet all that is, is my full name and my email address. My exposure on the internet is not much, but good so that someone who would need to find my information could do so.   </td>
+  </tr>
+    <tr>
+    <td>Describe good and bad passwords? What is another step that is used to assist in authentication.</td>
+    <td>Passwords are essential to ensure security and protection of our personal information and data. There are key differences between good and bad passwords. Good passwords are ones that are random, complex and contain an assortment of characters, numbers, and symbols. Bad passwords are one that are easily guessable and ones that are complete words which are predictable. Another way to assist in authentication is to ask for the users email or phone number to send them a code for them to type in to ensure that it really is the actual user.</td>
+  </tr>
+    <tr>
+    <td>Try to describe Symmetric and Asymmetric encryption.</td>
+    <td>Symmetric encryption uses the same key to encrypt and decrypt various data. Asymmetric encryption uses public keys to encrypt data and a private one to decrypt. </td>
+  </tr>
+    <tr>
+    <td>Provide and example of encryption we used in deployment.</td>
+    <td> Certbot </td>
+  </tr>
+    <tr>
+    <td>Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.</td>
+    <td> An amazon email will be sent saying that your order is shipped and is on its way to be delivered. Someone will click on the email unknowingly and their personal information could be exposed. Suspicious emails, texts and fake invoices are other phishing techniques.</td>
+  </tr>
+</table>
+
+## 5.5 - Legal and Ethical Concerns
+<table>
+   <tr>
+    <th>Questions</th>
+    <th>Answers</th>
+   </tr>
+    <tr>
+    <td>When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages </td>
+    <td>We are using GNU General Public License v3.0. <br>
+       * This license allows us to have freedom with our coding and others are allowed to also have access to our free software. <br>
+       * The conditions of this license are that contributors provide an express grant of patent. <br>
+       * You are allowed to sell your software but there is no protection as it is open software.</td>
+  </tr>
+    <tr>
+    <td>Make a license for your personal and Team project. Document license you picked and why.</td>
+    <td>We chose this license because we are not looking to make a profit off of this website and anyone should be able to use the software that we are coding in this class. People who are more experienced in this area should be allowed to build off out code and enhance it more.</td>
+  </tr>
+</table>
+
 ## 5.4 - Crowdsourcing
 <table>
    <tr>
