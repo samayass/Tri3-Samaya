@@ -4,6 +4,56 @@
 
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Samayas/Tri3-Samaya-3?lite=true"></iframe>
 
+## TT2 - Python Classes
+
+### GCD with OOP
+```
+class GCD:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+
+    def __call__(self):
+        # return 0 for the GCD if one of the inputs is 0
+        if self.a==0:
+            return 0
+        # return 0 for the GCD if one of the inputs is 0
+        if self.b==0:
+            return 0
+        #  checking if the two inputs evenly divide
+        if self.a % self.b ==0:
+            return self.b
+        if self.b % self.a ==0:
+            return self.a
+        # subtract smaller input from larger input. Replace larger value with difference and recursively call
+        if self.a > self.b:
+            self.a = self.a -self.b
+            return self()
+        if self.b > self.a:
+            self.b = self.b - self.a
+            return self()
+```
+
+
+### Factorial with OOP
+
+```
+class factorial:
+    def __init__(self):
+        self.factorial = [0, 1]
+
+    def __call__(self, n):
+        if n < len(self.factorial):
+            return self.factorial[n]
+        else:
+            # Compute the requested Fibonacci number
+            fac_number = n * self(n-1) # two recursive calls to self (__call__(self, n))
+            self.factorial.append(fac_number)
+        return self.factorial[n]
+
+```
+
+
 ## TT1 - Lists and Loops
 
 ### Lists and loops to display
