@@ -4,6 +4,15 @@ def swap1(a, b):
     return a, b
 
 
+def swap1_menu():
+    a = input("Enter a number: ")
+    b = input("Enter another number: ")
+    print("python swap")
+    print("original: ", a, b)
+    a, b = swap1(a, b)
+    print("after: ", a, b)
+    print()
+
 def swap1_helper(a, b):
     a = input("Enter a number")
     b = input("Enter another number")

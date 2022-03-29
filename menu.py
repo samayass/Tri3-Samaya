@@ -19,7 +19,7 @@ sub_menu_data = [
 ]
 
 sub_menu_math = [
-    ["Swap", swap.swap1_helper],
+    ["Swap", swap.swap1_menu],
     ["Fibonacci", fibonacci.fibonacci_tester],
     ["Factorial", factorial.factorial_tester],
     ["GCD", GCD.GCD_OOP_tester],
