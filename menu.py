@@ -1,7 +1,7 @@
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
-from week0 import animation, matrix, swap
+from week0 import animation, matrix, swap, tree
 from week1 import fibonacci, infoDb
 from week2 import factorial, GCD, LCM
 
@@ -27,7 +27,7 @@ sub_menu_math = [
 ]
 
 sub_menu_adventure = [
-    ["Tree",],
+    ["Tree", tree.tree],
     ["Pattern", animation.ship]
 ]
 
