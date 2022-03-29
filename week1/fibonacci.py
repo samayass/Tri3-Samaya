@@ -12,7 +12,8 @@ def fibonacci_tester():
         else:
             print("Fibonacci Sequence:")
             for i in range(num):
-                print(recur_fibonacci(i))
+                print(recur_fibonacci(i), end=" ")
+            print("\n")
     except ValueError:
         print("invalid")
 
