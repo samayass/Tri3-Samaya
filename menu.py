@@ -3,7 +3,7 @@
 # each import enables us to use logic that has been abstracted to other files and folders
 from week0 import animation, matrix, swap
 from week1 import fibonacci, infoDb
-from week2 import factorial, GCD
+from week2 import factorial, GCD, LCM
 
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
@@ -23,7 +23,7 @@ sub_menu_math = [
     ["Fibonacci", fibonacci.fibonacci_tester],
     ["Factorial", factorial.factorial_tester],
     ["GCD", GCD.GCD_OOP_tester],
-
+    ["LCM", LCM.lcm_tester]
 ]
 
 sub_menu_adventure = [
