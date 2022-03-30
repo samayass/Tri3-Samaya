@@ -1,10 +1,14 @@
 {% include navigation.html %}
 
+[TT0](#tt0)
+[TT1](#tt1)
+[TT2](#tt2)
+
 ## Runtime
 
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Samayas/Tri3-Samaya-3?lite=true"></iframe>
 
-## TT2 - Python Classes
+## <a name="tt2"></a>TT2 - Python Classes
 
 ### GCD with OOP
 ```
@@ -54,7 +58,7 @@ class factorial:
 ```
 
 
-## TT1 - Lists and Loops
+## <a name="tt1"></a>TT1 - Lists and Loops
 
 ### Lists and loops to display
 ```
@@ -98,13 +102,7 @@ def recur_factorial(n):
         return n * recur_factorial(n-1)
 ```
 
-
-
-
-
-
-
-## TT0 - Menu and Animation
+## <a name="tt0"></a>TT0 - Menu and Animation
 
 ### Menu
 ```
