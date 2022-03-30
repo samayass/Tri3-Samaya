@@ -62,7 +62,7 @@ def submenu_adventure():
 
 def buildMenu(banner, options):
     # header for menu
-    print(banner)
+    print("\u001b[35m",banner)
     # build a dictionary from options
     prompts = {0: ["Exit", None]}
     for op in options:
@@ -71,10 +71,10 @@ def buildMenu(banner, options):
 
     # print menu or dictionary
     for key, value in prompts.items():
-        print(key, '->', value[0])
+        print("\u001b[36m", key, '->', value[0])
 
     # get user choice
-    choice = input("Type your choice> ")
+    choice = input("\u001b[37mType your choice> ")
 
     # validate choice and run
     # execute selection
