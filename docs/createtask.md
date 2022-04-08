@@ -1,20 +1,97 @@
 {% include navigation.html %} <br>
 
-<a href="http://studyowl.tk:8080/test/">Runtime</a>
+# <a href="http://studyowl.tk:8080/test/">Runtime</a>
 
-<a href="https://github.com/samayass/flask_portfolio/blob/main/templates/test.html">Code</a>
+# <a href="https://github.com/samayass/flask_portfolio/blob/main/templates/test.html">Code</a>
 
-## PBL Plan
-Goal was to implement these different types of code into our technicals to ensure they blend into our website, but are still able to be shown for the Create Task. There are 4 different written types of code: Data Abstraction, Managing Complexity, Procedural Abstraction, and Algorithm Implementation.  
 
-StudyOwl is a studying website that encourages students to learn in a more efficient manner. One of the main features of the studyowl is the StudyRoom where students are inserted into the right environment to concentrate. While there are many features to help students focus, the studyowl team believes that hard word should be balanced with small breaks to give the brain time to reset. This learning strategy will be implemented in a BreakRoom which directly compliments our StudyRoom. Inside the break room will be mind stimulating games so that students can improve their logic and reasoning skills even while not studying. These games will be part of the create task project and include word games, memory games, etc.
 
-## Ideas
-Ideas: Hangman(string-man), Guess the word, Tic-Tac-Toe, Complex games, Memory game
-
-Hangman - 5 letter word, user guesses different letters. if the letter is in the word then the spot gets filled in, if not, a man gains his limbs one by one. (Possible idea: implement words with an API)
-
-Word Guess - user has 6 chances to guess a 5 letter word. user guesses different 5 letter words until they guess the right one. For every guess letters that are present in the actual word are indicated and letters that are in the correct spot are also indicated. (Possible idea: implement words with an API)
+## Written Response Questions for Create Task
+<table>
+   <tr>
+    <th>Number</th>
+    <th>Question</th>
+      <th>Answer</th>
+   </tr>
+   <tr>
+    <th>3ai</th>
+    <th>Describes the overall purpose of the program</th>
+    <th>Our game, Word Guess, a 5 letter guessing game is played for entertainment and will help to stimulate the user's minds so that they can improve their logic and reasoning skills in a fun way. The purpose of the program is to have a single user guess the chosen word correctly in less than 6 guesses.</th>
+   </tr>
+   <tr>
+    <th>3aii</th>
+    <th>Describes what functionality of the program is demonstrated in the video</th>
+    <th>The video demonstrates a user interacting with the word game grid. In the video the program prompts the user to enter different 5 letter words into each row of the grid and re-prompt the user to enter additional 5 letter words until they guess the correct word. The program then displays the updated word grid with tiles whose colors change based on the previous word guesses. This process repeats until the user has reached 6 guesses or until the program has detected that the player had correctly guessed the 5 letter word, at which point the game ends. If the user does not guess the word correctly within 6 tries the program outputs the correct word. At this point the user has the option to replay the game (restart the program). The video demonstrates the ability of the program to detect different scenarios when the user inputs different words or invalid words.</th>
+   </tr>
+   <tr>
+    <th>3aiii</th>
+    <th>Describes the input and output of the program demonstrated in the video</th>
+      <th>In the video 5 letter word inputs are given by a single player into one of the six rows to see if it will match with the chosen word. The output depends on what letters the user inputs, if the word inputted is not valid the program will output the message saying "word is not in list". If the word is valid the program will output different colors for different tiles. If the player guesses the correct word in six tries all the tiles will turn green, and if the user does not guess the word in six tries the word will be displayed on the screen.</th>
+   </tr>
+   <tr>
+    <th>3bi</th>
+    <th>The first program code segment must show how data have been stored in the list.</th>
+    <th><img width="970" alt="picture" src="https://user-images.githubusercontent.com/89225474/162372686-b4ebc9e9-4689-4c5d-ae2e-be6e76026fbf.png"></th>
+   </tr>
+   <tr>
+    <th>3bii</th>
+    <th>The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose.</th>
+    <th><img width="510" alt="picture" src="https://user-images.githubusercontent.com/89225474/162372820-80c33b40-8e23-4ee9-9743-38519daea51f.png"></th>
+   </tr>
+   <tr>
+    <th>3biii</th>
+    <th>Identifies the name of the list being used in this response</th>
+    <th>The list used in the code above is named wordList and in the second image wordList is accessed to assign a new random value to variable word.</th>
+   </tr>
+   <tr>
+    <th>3biv</th>
+    <th>Describes what the data contained in the list represent in your program</th>
+      <th>The data contained in the list represents all of the possible words the user might be able to guess.</th>
+   </tr>
+   <tr>
+    <th>3bv</th>
+    <th>Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list</th>
+      <th>The list allows for the program to store all the possible words in one location. Without the list holding many diverse words the program can only be played a certain amount of times until it becomes redundant. One would have to resort to using different variables to hold many different words.</th>
+   </tr>
+   <tr>
+    <th>3ci</th>
+    <th>The first program code segment must be a student-developed procedure that:□ Defines the procedure’s name and return type (if necessary) □ Contains and uses one or more parameters that have an effect on the functionality of the procedure □ Implements an algorithm that includes sequencing, selection, and iteration</th>
+      <th><img width="447" alt="picture" src="https://user-images.githubusercontent.com/89225474/162372943-d1ae018e-81c7-4559-a918-d7ad72156253.png"></th>
+   </tr>
+   <tr>
+    <th>3cii</th>
+    <th>The second program code segment must show where your student-developed procedure is being called in your program.</th>
+      <th><img width="344" alt="picture" src="https://user-images.githubusercontent.com/89225474/162373061-f7fa07e7-7370-4d47-89aa-1a11535d2891.png"></th>
+   </tr>
+   <tr>
+    <th>3ciii</th>
+    <th>Describes in general what the identified procedure does and how it contributes to the overall functionality of the program</th>
+    <th>The procedure contributes to the overall functionality of the program as it is the majority of the code that checks the word inputted and compares it to the random word chosen from the list. The for loop is implemented to check whether the number of letters inputted is the correct amount according to the rules, and if so let the letter inputted into each specific tile be assigned to the variable "letter". The if statements are used to compare the inputted word with the randomly chosen word, so if one of the letters inputted is in the chosen word and in the correct spot the tile will turn green. If one of the letters is included in the chosen word the tile will turn yellow, and else the tile will turn gray.</th>
+   </tr>
+   <tr>
+    <th>3civ</th>
+    <th>Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.</th>
+      <th>First one should set the number of correctly identified letters to 0 so that it is able to be incremented for each correct letter. Next a for loop is needed to call each tile by its name. Inside each span id value is one letter which the user has inputted. One should assign the innerText of the span id to a variable so that all the letters can be checked. Next if statements are used so that each letter of the inputted word can be compared to that of the chosen word, so one should use each letter in the randomly chosen word and equate it to each letter in the inputted word. If the letter is present in the chosen word the correctly identified letters variable should be incremented by one and the color of the tile should be assigned to a data-variable id to change the color of it accordingly. Next else if is used to check whether or not the chosen word includes any of the letters in the inputted word with the .includes function. If so assign the current span id to the specific data-variable to change the color of the tile. Lastly if neither of those conditions are met assign the current span id tile to the data-variable which grays out all the absent letters.</th>
+   </tr>
+   <tr>
+    <th>3di</th>
+    <th>Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.</th>
+      <th>First Call: The update function is called when the enter key is pressed and lifted upwards.
+Second Call:</th>
+   </tr>
+   <tr>
+    <th>3dii</th>
+    <th>Describes what condition(s) is being tested by each call to the procedure</th>
+      <th>Condition(s) tested by the first call: The program listens for the keyUp which means when the key is pressed and lifted upwards, so when the enter key is pressed the program has a condition that if the user inputted guess is included in the array of all available guess words then the function update will be called to compared the inputted value with the randomly chosen word.
+Condition(s) tested by the second call:</th>
+   </tr>
+   <tr>
+    <th>3diii</th>
+    <th>Identifies the result of each call</th>
+      <th>Result of the first call: The result of this called function is that the gameOver function will be equal to true meaning the user has won the game or the colors of tiles would change accordingly.
+Result of the second call:</th>
+   </tr>
+   </table>
 
 ## Requirements
 
