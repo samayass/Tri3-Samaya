@@ -31,6 +31,12 @@
 ### Hack 3 - Add login_required to another portion of project
 
 
+```
+@tennis_pg.route('/photos/')
+@login_required
+def photos():
+    return render_template("photos.html")
+```
 
 
 
