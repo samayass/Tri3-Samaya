@@ -3,10 +3,39 @@
 [TT0](#tt0)
 [TT1](#tt1)
 [TT2](#tt2)
+[TT3](#tt3)
+
 
 ## Runtime
 
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@Samayas/Tri3-Samaya-3?lite=true"></iframe>
+
+
+## <a name="tt3"></a>TT2 - Accounts and Login
+
+### Hack 1 - Add Phone Number to Sign Up screen
+<img width="312" alt="picture" src="https://user-images.githubusercontent.com/89225474/163730825-1d949341-1c85-43b1-9c02-b214d81f4d12.png">
+
+``` phone = request.form.get("phone") ``` <br>
+``` "phone": self.phone, ```<br>
+
+### Hack 2 - Add logout to CRUD screen. Display logged in User on top of CRUD Page
+<img width="901" alt="picture" src="https://user-images.githubusercontent.com/89225474/163731105-7974c4db-cbef-4eaa-87b0-de36b44b4377.png">
+
+``` 
+<div class='parent'>
+    <div class='child'><h1 style="">Current User: {{ current_user.name }}</h1></div>
+    <div class='child'><button><a href={{url_for('crud.crud_logout')}}>Log out</a></button></div>
+</div>
+```
+### Hack 3 - Add login_required to another portion of project
+
+
+
+
+
+
+
 
 ## <a name="tt2"></a>TT2 - Python Classes
 
