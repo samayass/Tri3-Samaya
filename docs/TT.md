@@ -13,6 +13,12 @@
 
 ## <a name="tt3"></a>TT2 - Accounts and Login
 
+### Analysis: the csp.nighthawkcodingsociety.com implementation is for educational purposes.  It has some obvious flaws in its security.   Discuss some of the flaws that you see in its security as implemented. 
+Some flaws are that anyone can access all the pages without being a part of the school and they can see individuals names which are displayed on the jekyll page.
+
+
+
+
 ### Hack 1 - Add Phone Number to Sign Up screen
 <img width="312" alt="picture" src="https://user-images.githubusercontent.com/89225474/163730825-1d949341-1c85-43b1-9c02-b214d81f4d12.png">
 
