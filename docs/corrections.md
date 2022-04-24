@@ -1,3 +1,74 @@
+# Finals Quiz 2 - Corrections
+<table>
+   <tr>
+    <th>Question</th>
+    <th>My Answer</th>
+    <th>Correct Answer</th>
+    <th>Reason</th>
+   </tr>
+   <tr>
+      <td><img width="431" alt="question" src="https://user-images.githubusercontent.com/89225474/164792262-d74d71ae-8a94-4281-9d59-6b89dc0c6dfe.png"></td>
+      <td>B</td>
+      <td>D</td>
+      <td>B is incorrect since adding parallel portions will not improve the efficiency.</td>
+   </tr>
+   <tr>
+      <td><img width="485" alt="question" src="https://user-images.githubusercontent.com/89225474/164792656-f6983609-d2e9-404d-8476-e126bdd654d6.png"></td>
+      <td>A</td>
+      <td>B</td>
+      <td>B is correct since Lossless compression can resconstruct data.</td>
+   </tr>
+   <tr>
+      <td><img width="391" alt="question" src="https://user-images.githubusercontent.com/89225474/164793104-0122e704-3d83-4d49-b5f0-e72fd043facb.png"></td>
+      <td>C</td>
+      <td>D</td>
+      <td>D is correct since this application would benefit from having user input from all over the world.</td>
+   </tr>
+   <tr>
+      <td><img width="698" alt="question" src="https://user-images.githubusercontent.com/89225474/164793356-4388b7a3-d5ab-4836-a1d8-21f6df09b226.png"></td>
+      <td>A</td>
+      <td>C</td>
+      <td>C is correct since you would place the slowest processor with the fastest one to optimize execution time.</td>
+   </tr>
+   <tr>
+      <td><img width="715" alt="question" src="https://user-images.githubusercontent.com/89225474/164793435-6f5bcfb9-c7ae-4908-86a1-df6135d6a46a.png"></td>
+      <td>C</td>
+      <td>A</td>
+      <td>A is correct since the right graph is almost 10x the left graph.  </td>
+   </tr>
+   <tr>
+      <td><img width="687" alt="image" src="https://user-images.githubusercontent.com/89225474/164953758-ff676f78-d86b-490c-b3e5-206d1f67f2cd.png"></td>
+      <td>A</td>
+      <td>B</td>
+      <td>A is incorect as IPv6 means more bits than IPv4 so it means it would have a greater numver of addresses avaliable. </td>
+   </tr>
+   <tr>
+      <td><img width="416" alt="question" src="https://user-images.githubusercontent.com/89225474/164953779-41d36b35-625c-4659-af7b-cce4ab62206a.png"></td>
+      <td>B</td>
+      <td>C</td>
+      <td>C is correct since redundancy means it will send the data in a different route.</td>
+   </tr>
+   <tr>
+      <td><img width="710" alt="question" src="https://user-images.githubusercontent.com/89225474/164953695-7ee613a5-1fcd-4d28-bd9a-66276af1c7bf.png"></td>
+      <td>A&D</td>
+      <td>B&C</td>
+      <td>Read the question wrong should be the ones that challange the program.</td>
+   </tr>
+   <tr>
+      <td><img width="772" alt="question" src="https://user-images.githubusercontent.com/89225474/164953720-b958e76e-6f2f-4a4a-aa51-084b13ccf00f.png"></td>
+      <td>A&B</td>
+      <td>B&C</td>
+      <td>C is the correct answer since cloud computing must protect it's users data.</td>
+   </tr>
+   <tr>
+      <td><img width="737" alt="question" src="https://user-images.githubusercontent.com/89225474/164954136-7668c377-fb4e-4356-b1c5-9a5b5aca433c.png"></td>
+      <td>C</td>
+      <td>A</td>
+      <td>A is correct since the teacher also needs the gpa of the students who don't play sports' gpa.</td>
+   </tr>
+
+</table>
+
 # Finals Quiz 1 - Corrections
 
 <table>
