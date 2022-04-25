@@ -1,8 +1,9 @@
 {% include navigation.html %} <br>
 
-# <a href="http://studyowl.tk:8080/test/">Runtime</a>
+# <a href="https://replit.com/@Samayas/Create-Task#main.py">Runtime and Code</a>
 
-# <a href="https://github.com/samayass/flask_portfolio/blob/main/templates/test.html">Code</a>
+# <a href="https://loom.com/share/4b50277afde247b1b25d4e882a9ee789">Video</a>
+
 
 
 
