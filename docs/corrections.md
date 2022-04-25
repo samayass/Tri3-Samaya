@@ -1,3 +1,7 @@
+{% include navigation.html %}
+
+
+
 # Finals Quiz 2 - Corrections - Score: 40/50
 <table>
    <tr>
