@@ -1,4 +1,4 @@
-# Finals Quiz 2 - Corrections
+# Finals Quiz 2 - Corrections - Score: 40/50
 <table>
    <tr>
     <th>Question</th>
@@ -69,7 +69,7 @@
 
 </table>
 
-# Finals Quiz 1 - Corrections
+# Finals Quiz 1 - Corrections - Score: 43/50
 
 <table>
    <tr>
