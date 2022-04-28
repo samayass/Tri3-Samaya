@@ -17,32 +17,34 @@
    <tr>
     <th>3ai</th>
     <th>Describes the overall purpose of the program</th>
-    <th>Our game, Word Guess, a 5 letter guessing game is played for entertainment and will help to stimulate the user's minds so that they can improve their logic and reasoning skills in a fun way. The purpose of the program is to have a single user guess the chosen word correctly in less than 6 guesses.</th>
+    <th>
+       This program allows the user to play an entertaining game to help stimulate their mind to improve their analytical skills in an enjoyable way.</th>
    </tr>
    <tr>
     <th>3aii</th>
     <th>Describes what functionality of the program is demonstrated in the video</th>
-    <th>The video demonstrates a user interacting with the word game grid. In the video the program prompts the user to enter different 5 letter words into each row of the grid and re-prompt the user to enter additional 5 letter words until they guess the correct word. The program then displays the updated word grid with tiles whose colors change based on the previous word guesses. This process repeats until the user has reached 6 guesses or until the program has detected that the player had correctly guessed the 5 letter word, at which point the game ends. If the user does not guess the word correctly within 6 tries the program outputs the correct word. At this point the user has the option to replay the game (restart the program). The video demonstrates the ability of the program to detect different scenarios when the user inputs different words or invalid words.</th>
+    <th>The user is given six guesses to evaluate a randomly chosen word based on the color change of letters from the word inputted. If the letters turn green they are correct, if they are present, yellow, otherwise, no color change is seen.</th>
    </tr>
    <tr>
     <th>3aiii</th>
     <th>Describes the input and output of the program demonstrated in the video</th>
-      <th>In the video 5 letter word inputs are given by a single player into one of the six rows to see if it will match with the chosen word. The output depends on what letters the user inputs, if the word inputted is not valid the program will output the message saying "word is not in list". If the word is valid the program will output different colors for different tiles. If the player guesses the correct word in six tries all the tiles will turn green, and if the user does not guess the word in six tries the word will be displayed on the screen.</th>
+      <th> In the video, the 5-letter valid word 'irate' is inputted. The output depends on the input and displays the letters, 'r' and 't' in green and yellow, respectively. Once the user has guessed the correct word, 'you win!' is outputted. In the second scenario, a 4 letter word, and an invalid word are inputted, so the program outputs a message saying that the input is, 'not a 5 letter word' or, 'not a valid word' and prompts the user with another guess opportunity.
+</th>
    </tr>
    <tr>
     <th>3bi</th>
     <th>The first program code segment must show how data have been stored in the list.</th>
-    <th><img width="970" alt="picture" src="https://user-images.githubusercontent.com/89225474/162372686-b4ebc9e9-4689-4c5d-ae2e-be6e76026fbf.png"></th>
+    <th><img width="409" alt="mistake" src="https://user-images.githubusercontent.com/89225474/165684009-e559e9f0-726d-4aa9-92b7-a5a4cd4891d3.png"></th>
    </tr>
    <tr>
     <th>3bii</th>
     <th>The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose.</th>
-    <th><img width="510" alt="picture" src="https://user-images.githubusercontent.com/89225474/162372820-80c33b40-8e23-4ee9-9743-38519daea51f.png"></th>
+    <th><img width="212" alt="mistake" src="https://user-images.githubusercontent.com/89225474/165684201-537e01d3-b208-449c-a181-25443c211c99.png"></th>
    </tr>
    <tr>
     <th>3biii</th>
     <th>Identifies the name of the list being used in this response</th>
-    <th>The list used in the code above is named wordList and in the second image wordList is accessed to assign a new random value to variable word.</th>
+    <th>The list is named wordbank and in the second image wordbank is accessed to assign a random value to variable word.</th>
    </tr>
    <tr>
     <th>3biv</th>
@@ -52,17 +54,17 @@
    <tr>
     <th>3bv</th>
     <th>Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list</th>
-      <th>The list allows for the program to store all the possible words in one location. Without the list holding many diverse words the program can only be played a certain amount of times until it becomes redundant. One would have to resort to using different variables to hold many different words.</th>
+      <th>The list allows for the program to store all the possible words in one location. Without the list holding many diverse words the program can only be played a certain amount of times until it becomes redundant. One would have to resort to using different variables to hold many different words which would be impractical.</th>
    </tr>
    <tr>
     <th>3ci</th>
     <th>The first program code segment must be a student-developed procedure that:□ Defines the procedure’s name and return type (if necessary) □ Contains and uses one or more parameters that have an effect on the functionality of the procedure □ Implements an algorithm that includes sequencing, selection, and iteration</th>
-      <th><img width="447" alt="picture" src="https://user-images.githubusercontent.com/89225474/162372943-d1ae018e-81c7-4559-a918-d7ad72156253.png"></th>
+      <th><img width="166" alt="mistake" src="https://user-images.githubusercontent.com/89225474/165685759-1bf18ad0-41ca-4cbd-9ea9-1fec6bb45588.png"></th>
    </tr>
    <tr>
     <th>3cii</th>
     <th>The second program code segment must show where your student-developed procedure is being called in your program.</th>
-      <th><img width="344" alt="picture" src="https://user-images.githubusercontent.com/89225474/162373061-f7fa07e7-7370-4d47-89aa-1a11535d2891.png"></th>
+      <th><img width="272" alt="mistake" src="https://user-images.githubusercontent.com/89225474/165685990-9917480c-dd1b-4ea1-958a-dc9c9a3972a0.png"></th>
    </tr>
    <tr>
     <th>3ciii</th>
