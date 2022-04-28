@@ -69,7 +69,7 @@
    <tr>
     <th>3ciii</th>
     <th>Describes in general what the identified procedure does and how it contributes to the overall functionality of the program</th>
-    <th>The procedure contributes to the overall functionality of the program as it is the majority of the code that checks the word inputted and compares it to the random word chosen from the list. The for loop is implemented to check whether the number of letters inputted is the correct amount according to the rules, and if so let the letter inputted into each specific tile be assigned to the variable "letter". The if statements are used to compare the inputted word with the randomly chosen word, so if one of the letters inputted is in the chosen word and in the correct spot the tile will turn green. If one of the letters is included in the chosen word the tile will turn yellow, and else the tile will turn gray.</th>
+    <th>The procedure contributes to the overall functionality of the program as it is the majority of the code that checks the word inputted and compares it to the random word chosen from the list. The for loop is implemented to check whether the letters from the word, which are put into a list, are in the correct spot or not.The if statements are used to compare the inputted word with the randomly chosen word, so if one of the letters inputted is in the chosen word and in the correct spot the tile will turn green. If one of the letters is included in the chosen word the tile will turn yellow, and else the tile will turn gray. Else if there is an error with the inputted word the program gives the user a message and prompts them with another oppurtunity. </th>
    </tr>
    <tr>
     <th>3civ</th>
