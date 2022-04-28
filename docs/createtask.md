@@ -28,7 +28,7 @@
    <tr>
     <th>3aiii</th>
     <th>Describes the input and output of the program demonstrated in the video</th>
-      <th> In the video, the 5-letter valid word 'irate' is inputted. The output depends on the input and displays the letters, 'r' and 't' in green and yellow, respectively. Once the user has guessed the correct word, 'you win!' is outputted. In the second scenario, a 4 letter word, and an invalid word are inputted, so the program outputs a message saying that the input is, 'not a 5 letter word' or, 'not a valid word' and prompts the user with another guess opportunity.
+      <th> In the video, the 5-letter valid word 'irate' is inputted. The output depends on the input and displays the letters, 'r' and 't' in green and yellow, respectively. Once the user has guessed the correct word, 'you win!' is outputted. In the second scenario, a 4 letter word, and an invalid word are inputted, so the program outputs a message saying that the input is, 'not a 5 letter word' or, 'not a valid word' and prompts the user with another input opportunity.
 </th>
    </tr>
    <tr>
