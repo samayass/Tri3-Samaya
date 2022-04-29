@@ -69,30 +69,27 @@
    <tr>
     <th>3ciii</th>
     <th>Describes in general what the identified procedure does and how it contributes to the overall functionality of the program</th>
-    <th>The procedure contributes to the overall functionality of the program as it is the majority of the code that checks the word inputted and compares it to the random word chosen from the list. The for loop is implemented to check whether the letters from the word, which are put into a list, are in the correct spot or not.The if statements are used to compare the inputted word with the randomly chosen word, so if one of the letters inputted is in the chosen word and in the correct spot the tile will turn green. If one of the letters is included in the chosen word the tile will turn yellow, and else the tile will turn gray. Else if there is an error with the inputted word the program gives the user a message and prompts them with another oppurtunity. </th>
+    <th>Once a valid word is inputted the function iterates through the letters from the word, stored in a list, and compares it to the randomly chosen word to see if the letters should turn, green, yellow or stay the same. The overall functionaliy is shown since it allows the program to output: the word with it's colors changes, a you win message, or the randomly chosen word.</th>
    </tr>
    <tr>
     <th>3civ</th>
     <th>Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.</th>
-      <th>First one should set the number of correctly identified letters to 0 so that it is able to be incremented for each correct letter. Next a for loop is needed to call each tile by its name. Inside each span id value is one letter which the user has inputted. One should assign the innerText of the span id to a variable so that all the letters can be checked. Next if statements are used so that each letter of the inputted word can be compared to that of the chosen word, so one should use each letter in the randomly chosen word and equate it to each letter in the inputted word. If the letter is present in the chosen word the correctly identified letters variable should be incremented by one and the color of the tile should be assigned to a data-variable id to change the color of it accordingly. Next else if is used to check whether or not the chosen word includes any of the letters in the inputted word with the .includes function. If so assign the current span id to the specific data-variable to change the color of the tile. Lastly if neither of those conditions are met assign the current span id tile to the data-variable which grays out all the absent letters.</th>
+      <th> The function checkwordlength uses an if statment to check if the input is 5 letters otherwise an error message is outputted. Then checkwordvalid checks if the inputted word is in the list guessbank which is all the possible guessing words. Lastly, checkword compares the inputted word with the random word by comparing the letters of the words (stored in a list) </th>
    </tr>
    <tr>
     <th>3di</th>
     <th>Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.</th>
-      <th>First Call: The update function is called when the enter key is pressed and lifted upwards.
-Second Call:</th>
+      <th></th>
    </tr>
    <tr>
     <th>3dii</th>
     <th>Describes what condition(s) is being tested by each call to the procedure</th>
-      <th>Condition(s) tested by the first call: The program listens for the keyUp which means when the key is pressed and lifted upwards, so when the enter key is pressed the program has a condition that if the user inputted guess is included in the array of all available guess words then the function update will be called to compared the inputted value with the randomly chosen word.
-Condition(s) tested by the second call:</th>
+      <th></th>
    </tr>
    <tr>
     <th>3diii</th>
     <th>Identifies the result of each call</th>
-      <th>Result of the first call: The result of this called function is that the gameOver function will be equal to true meaning the user has won the game or the colors of tiles would change accordingly.
-Result of the second call:</th>
+      <th></th>
    </tr>
    </table>
 
