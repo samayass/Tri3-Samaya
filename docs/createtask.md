@@ -49,12 +49,12 @@
    <tr>
     <th>3biv</th>
     <th>Describes what the data contained in the list represent in your program</th>
-      <th>The data contained in the list represents all of the possible words the user might be able to guess.</th>
+      <th>The data contained in the list represents all of the possible words the user might be able to guess and all the possible randomly chosen words.</th>
    </tr>
    <tr>
     <th>3bv</th>
     <th>Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list</th>
-      <th>The list allows for the program to store all the possible words in one location. Without the list holding many diverse words the program can only be played a certain amount of times until it becomes redundant. One would have to resort to using different variables to hold many different words which would be impractical.</th>
+      <th>The list allows for the program to store all the possible words in one location. Without the list which holds many diverse words the program can only be played a certain amount of times until it becomes redundant. One would have to resort to using different variables to hold many different words which would be impractical. This also allows the user to play the game as many times as they like. </th>
    </tr>
    <tr>
     <th>3ci</th>
@@ -69,12 +69,12 @@
    <tr>
     <th>3ciii</th>
     <th>Describes in general what the identified procedure does and how it contributes to the overall functionality of the program</th>
-    <th>Once a valid word is inputted the function iterates through the letters from the word, stored in a list, and compares it to the randomly chosen word to see if the letters should turn, green, yellow or stay the same. The overall functionaliy is shown since it allows the program to output: the word with it's colors changes, a you win message, or the randomly chosen word.</th>
+    <th>Once a valid word is inputted the function iterates through the letters from the word, stored in a list, and compares it to the randomly chosen word to see what colors the letters should turn. The overall functionaliy is shown since the procedure allows the program to output: the word with it's colors changes, a you win message, or the randomly chosen word based on the input.</th>
    </tr>
    <tr>
     <th>3civ</th>
     <th>Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.</th>
-      <th> The function checkwordlength uses an if statment to check if the input is 5 letters otherwise an error message is outputted. Then checkwordvalid checks if the inputted word is in the list guessbank which is all the possible guessing words. Lastly, checkword compares the inputted word with the random word by comparing the letters of the words (stored in a list) </th>
+      <th> The function checkwordlength uses an if statment to check if the input length is 5 letters otherwise an error message is outputted. Then checkwordvalid checks if the inputted word is in the list guessbank which is all the possible guessing words. Lastly, checkword compares the inputted word with the random word by comparing the letters of the words which are stored in a list. If the letterslist (inputted word letters) is equal to the wordletterslist (random word letters) then the user has won since all the letters match. The exist count is initializing a list size of length 128 whose initial value is zero. If the user inputs a word with two of the same letters (the randomly chosen word only has one of that letter) and one of the letters is in the correct spot then the exist count has 1 added to it, and the inputted word is converted back to a list and with the correct letters turned green. If two of the same letters are in the word (the randomly chosen word only has one of that letter) and they would both be in the wrong spot then display only one in yellow so it does not exceed the number of instances. If there are two of the same letters inputted and none are correct then display one of the letters as the same. Then combine the list of colored letters into a string to output it.  </th>
    </tr>
    <tr>
     <th>3di</th>
