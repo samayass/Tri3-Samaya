@@ -59,37 +59,37 @@
    <tr>
     <th>3ci</th>
     <th>The first program code segment must be a student-developed procedure that:□ Defines the procedure’s name and return type (if necessary) □ Contains and uses one or more parameters that have an effect on the functionality of the procedure □ Implements an algorithm that includes sequencing, selection, and iteration</th>
-      <th><img width="166" alt="mistake" src="https://user-images.githubusercontent.com/89225474/165685759-1bf18ad0-41ca-4cbd-9ea9-1fec6bb45588.png"></th>
+      <th><img width="240" alt="mistake" src="https://user-images.githubusercontent.com/89225474/166132362-6c7f8695-1f66-4d00-8a81-7eee855631da.png"></th>
    </tr>
    <tr>
     <th>3cii</th>
     <th>The second program code segment must show where your student-developed procedure is being called in your program.</th>
-      <th><img width="272" alt="mistake" src="https://user-images.githubusercontent.com/89225474/165685990-9917480c-dd1b-4ea1-958a-dc9c9a3972a0.png"></th>
+      <th><img width="463" alt="mistake" src="https://user-images.githubusercontent.com/89225474/166132404-4b680ff2-0818-4e92-ad82-7696d22fd2c8.png"></th>
    </tr>
    <tr>
     <th>3ciii</th>
     <th>Describes in general what the identified procedure does and how it contributes to the overall functionality of the program</th>
-    <th>The overall functionaliy is shown since the procedure allows the program to output: the word with it's colors changes, a you win message, or the randomly chosen word based on the input and amount of guesses the user makes..</th>
+    <th>This procedure compares the letters of the word inputted to that of the random word and changes the colors of the output accordingly. This contributes to the overall functionality since it allows the user to continue their game based on the programs outputs. </th>
    </tr>
    <tr>
     <th>3civ</th>
     <th>Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.</th>
-      <th> The function checkwordlength uses an if statment to check if the input length is 5 letters otherwise an error message is outputted. Then checkwordvalid checks if the inputted word is in the list guessbank which is all the possible guessing words. Lastly, checkword compares the inputted word with the random word by comparing the letters of the words which are stored in a list. If the letterslist (inputted word letters) is equal to the wordletterslist (random word letters) then the user has won since all the letters match. The exist count is initializing a list size of length 128 whose initial value is zero. If the user inputs a word with two of the same letters (the randomly chosen word only has one of that letter) and one of the letters is in the correct spot then the exist count has 1 added to it, and the inputted word is converted back to a list and with the correct letters turned green. If two of the same letters are in the word (the randomly chosen word only has one of that letter) and they would both be in the wrong spot then display only one in yellow so it does not exceed the number of instances. If there are two of the same letters inputted and none are correct then display one of the letters as the same. Then combine the list of colored letters into a string to output it.  </th>
+      <th> The exist count is initializing a list size of length 128 whose initial value is zero. If the user inputs a word with two of the same letters and one of the letters is in the correct spot then the exist count has 1 added to it, and the inputted word is converted back to a list and with the correct letters turned green. If two of the same letters are in the word and they would both be in the wrong spot then display only one in yellow so it does not exceed the number of instances. If there are two of the same letters inputted and none are correct then display one of the letters as the same. Then combine the list of colored letters into a string to output it.  </th>
    </tr>
    <tr>
     <th>3di</th>
     <th>Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.</th>
-      <th></th>
+      <th> The first call is when 'checkword' is called under 'guess1' this checks whether the first guess inputted has letters that are in the correct spot, in the word or not present. The second call is in the function 'endgame6' which is called under the final guess the user is allowed to make before the game ends.  </th>
    </tr>
    <tr>
     <th>3dii</th>
     <th>Describes what condition(s) is being tested by each call to the procedure</th>
-      <th></th>
+      <th>For the first call, For the second call,</th>
    </tr>
    <tr>
     <th>3diii</th>
     <th>Identifies the result of each call</th>
-      <th></th>
+      <th>For the first call, the output is the string of the inputted word with the letters' colors changed (green: correct spot, yellow: present, and no change: absent) based on the comparison to the randomly chosen word. For the second call, the output would be the string of the inputted word with it's color changed. Then it would be a 'you win!' message along with a 'that was close! if the 'checkall' function displays that the inputted word is correct, otherwise the output would be the word that the user was not able to guess.   </th>
    </tr>
    </table>
 
