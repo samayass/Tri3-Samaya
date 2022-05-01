@@ -69,7 +69,7 @@
    <tr>
     <th>3ciii</th>
     <th>Describes in general what the identified procedure does and how it contributes to the overall functionality of the program</th>
-    <th>This procedure compares the letters of the word inputted to that of the random word and changes the colors of the output accordingly. This contributes to the overall functionality since it allows the user to continue their game based on the programs outputs. </th>
+    <th>This procedure compares the letters of the word inputted to that of the random word, and changes the colors of the output accordingly. This contributes to the overall functionality, since it allows the user to continue their game based on the programs outputs. </th>
    </tr>
    <tr>
     <th>3civ</th>
@@ -79,7 +79,7 @@
    <tr>
     <th>3di</th>
     <th>Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.</th>
-      <th> The first call is when 'checkword' is called under 'guess1' this checks whether the first guess inputted has letters that are in the correct spot, in the word or not present. The second call is in the function 'endgame6' which is called under the final guess the user is allowed to make before the game ends.  </th>
+      <th> The first call is when 'checkword' is called under 'guess1' this checks whether the first guess inputted has letters that are in the correct spot, in the word or not present. The second call is in the function 'endgame6' which is called under the final guess before the game ends.  </th>
    </tr>
    <tr>
     <th>3dii</th>
