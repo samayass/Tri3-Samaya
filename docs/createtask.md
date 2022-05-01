@@ -69,7 +69,7 @@
    <tr>
     <th>3ciii</th>
     <th>Describes in general what the identified procedure does and how it contributes to the overall functionality of the program</th>
-    <th>Once a valid word is inputted the function iterates through the letters from the word, stored in a list, and compares it to the randomly chosen word to see what colors the letters should turn. The overall functionaliy is shown since the procedure allows the program to output: the word with it's colors changes, a you win message, or the randomly chosen word based on the input.</th>
+    <th>The overall functionaliy is shown since the procedure allows the program to output: the word with it's colors changes, a you win message, or the randomly chosen word based on the input and amount of guesses the user makes..</th>
    </tr>
    <tr>
     <th>3civ</th>
