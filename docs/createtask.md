@@ -84,7 +84,7 @@
    <tr>
     <th>3dii</th>
     <th>Describes what condition(s) is being tested by each call to the procedure</th>
-      <th>For the first call, For the second call,</th>
+      <th>For the first call the procedure is comparing the users first guess inputted to the randomly chosen word and outputting the word with it's color changed.   For the second call the procedure is comparing the users last guess inputted to the randomly chosen word and then it outputs a message saying 'you win!' or the randomly chosen word.</th>
    </tr>
    <tr>
     <th>3diii</th>
