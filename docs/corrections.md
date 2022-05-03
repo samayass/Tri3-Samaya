@@ -1,5 +1,77 @@
 {% include navigation.html %}
 
+# Finals Quiz 3 - Corrections - Score: 40/50
+<table>
+   <tr>
+    <th>Question</th>
+    <th>My Answer</th>
+    <th>Correct Answer</th>
+    <th>Reason</th>
+   </tr>
+   <tr>
+      <td><img width="722" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166404571-3221eedf-7174-42be-b784-b2c8d6599a3d.png"></td>
+      <td>D</td>
+      <td>B</td>
+      <td>Algorithm 3 does not work since it chooses someone with the earliest day and disregards the month</td>
+   </tr>
+   <tr>
+      <td><img width="607" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166404611-399fa274-6be7-4f3a-9e52-98d8ced0c605.png"></td>
+      <td>A</td>
+      <td>D</td>
+      <td>The procedure will run without an error subsequent iteration is used for the correct answer</td>
+   </tr>
+   <tr>
+      <td><img width="623" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166404778-f294c751-6533-48b5-a9b5-d8630c95e477.png"></td>
+      <td>B</td>
+      <td>C</td>
+      <td>Code B is incorrect since it incorrectly charges the customers who use more than 25 units of electricity. This code only charges customers for over 25 units of electricity.</td>
+   </tr>
+   <tr>
+      <td><img width="614" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166404902-da0127b8-855c-4ef3-8593-0fbf730a52d4.png">
+</td>
+      <td>A</td>
+      <td>D</td>
+      <td>This is incorrect since overwhelming a system with requests can be done regardless of the strength of the password.</td>
+   </tr>
+   <tr>
+      <td><img width="736" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166405007-de52f932-1f95-4894-8a5c-f8b8ec4cda21.png"></td>
+      <td>B&C</td>
+      <td>B&D</td>
+      <td>C is incorrect since when numCorrect is 7 the condition should be false which means check is displayed</td>
+   </tr>
+   <tr>
+      <td><img width="714" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166405127-92b75c28-616a-4936-93fe-38cde29d1d9d.png">
+</td>
+      <td>A</td>
+      <td>B</td>
+      <td>A is incorrect as this approximation would be better for year 11</td>
+   </tr>
+   <tr>
+      <td><img width="752" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166405229-590380d3-747f-4795-b0d4-c4e51f8d2b59.png"></td>
+      <td>D</td>
+      <td>C</td>
+      <td>D is incorrect since it is not the minimum number of bits required as 2^8 = 256 while 2^7 = 128 so for numbers 0-100 only 7 bits are needed.</td>
+   </tr>
+   <tr>
+      <td><img width="652" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166405282-1a4663c4-951f-463d-b3fe-52970177c69a.png"></td>
+      <td>C</td>
+      <td>D</td>
+      <td>D is correct since it generalizes the procedure for exponents correctly. </td>
+   </tr>
+   <tr>
+      <td><img width="653" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166405353-0b1db3ab-3f6f-4dba-91c7-65899c37486f.png"></td>
+      <td>A</td>
+      <td>B</td>
+      <td> A is incorrect since this shows an example of asymmetric systems since different codes are used.</td>
+   </tr>
+   <tr>
+      <td><img width="689" alt="image-removebg-preview (7)" src="https://user-images.githubusercontent.com/89225474/166405419-046cf4ab-9201-4170-80b5-4b6937f78a3a.png"></td>
+      <td>C</td>
+      <td>B</td>
+      <td>B is correct since it is not possible to use byte encoding because no two letters show up in the string more than once.</td>
+   </tr>
+   </table>
+
 
 
 # Finals Quiz 2 - Corrections - Score: 40/50
