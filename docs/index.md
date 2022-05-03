@@ -6,7 +6,7 @@
 <a href="https://github.com/samayass/Tri3-Samaya/issues/5">Review Ticket Week 3</a><br>
 <a href="https://github.com/samayass/Tri3-Samaya/issues/6">Review Ticket Week 4</a><br>
 <a href="https://github.com/samayass/Tri3-Samaya/issues/8">Review Ticket Week 5</a><br>
-<a href="https://github.com/samayass/Tri3-Samaya/issues/9">Review Ticket Week 5</a><br>
+<a href="https://github.com/samayass/Tri3-Samaya/issues/9">Review Ticket Week 6</a><br>
 <br>
 <a href="https://github.com/samayass/Tri3-Samaya/issues/7">Study Plan</a><br>
 
