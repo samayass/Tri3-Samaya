@@ -1,5 +1,58 @@
 {% include navigation.html %}
 
+# Finals Quiz 4 - Corrections - Score: 43/50
+<table>
+   <tr>
+    <th>Question</th>
+    <th>My Answer</th>
+    <th>Correct Answer</th>
+    <th>Reason</th>
+   </tr>
+   <tr>
+      <td><img width="740" alt="list" src="https://user-images.githubusercontent.com/89225474/167168760-0e835f8c-e66c-4786-b963-749c15321e98.png"></td>
+      <td>C</td>
+      <td>B</td>
+      <td>B would be correct since adding else would increment xCount 25% of the time and yCount the other.</td>
+   </tr>
+   <tr>
+      <td><img width="763" alt="list" src="https://user-images.githubusercontent.com/89225474/167169350-0e02c07d-526f-479f-81a5-6db596b2cba6.png"></td>
+      <td>C</td>
+      <td>D</td>
+      <td>D is correct since the iteration is four times so in Version I 4 minutes is needed whereas for Version II 9 minutes is needed.</td>
+   </tr>
+   <tr>
+      <td><img width="851" alt="list" src="https://user-images.githubusercontent.com/89225474/167169808-252279db-d642-46cb-bfb7-137cd9c762b3.png"></td>
+      <td>C</td>
+      <td>D</td>
+      <td>C is incorrect since it only decrements index if an occurence is found but it should be done for each element in the list.</td>
+   </tr>
+   <tr>
+      <td><img width="695" alt="list" src="https://user-images.githubusercontent.com/89225474/167170014-0781b3d6-1576-43ac-a79d-c62e14598e91.png"></td>
+      <td>B</td>
+      <td>A</td>
+      <td>A is correct since the ITF develops standards and protocols.</td>
+   </tr>
+   <tr>
+      <td><img width="671" alt="list" src="https://user-images.githubusercontent.com/89225474/167170417-8ee14cc1-6b74-4377-906f-c5ad25362d84.png"></td>
+      <td>B</td>
+      <td>A</td>
+      <td>B is incorrect since it the robot would not even be able to move from it's initial position. </td>
+   </tr>
+   <tr>
+      <td><img width="721" alt="list" src="https://user-images.githubusercontent.com/89225474/167170623-6f6ec093-0224-42fc-814f-bb4fe60adf3e.png"></td>
+      <td>B</td>
+      <td>A</td>
+      <td>A is correct since it takes input from a large group of people. </td>
+   </tr>
+   <tr>
+      <td><img width="341" alt="list" src="https://user-images.githubusercontent.com/89225474/167170876-55e773dc-eb31-4251-9b1c-bbbb9f91628c.png"></td>
+      <td>A</td>
+      <td>B</td>
+      <td>B is correct since the internet is designed to be scalable.</td>
+   </tr>
+   </table>
+
+
 # Finals Quiz 3 - Corrections - Score: 40/50
 <table>
    <tr>
